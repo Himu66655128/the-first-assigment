@@ -1,11 +1,11 @@
 
 main{
     max-width: 1140px;
-    margin:0 auto;
+    margin: 0 auto;
 }
-
 .logo2{
-   background: url(../B12A01-landing-launchpad/Assets/Hero-bg.png); 
+   background: url(../B12A01-landing-launchpad/Assets/Hero-bg.png);
+   background-repeat: no-repeat; 
 
 }
 nav ul li{
@@ -23,12 +23,16 @@ nav{
     border-radius:12px;
     color: white;
     border: none;
+    
 }
 .logo{
     color: #4E47FF;
     font-weight: bold;
     font-size: larger;
     font-weight: 700;
+}
+.needed{
+    font-weight: bolder;
 }
 .line{
     text-align: center;
@@ -37,4 +41,62 @@ nav{
 }
 .bold{
     font-weight:800px ;
+}
+.blog{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px;
+    background-color: white;
+}
+
+.images{
+    width: 35%;
+    height: 35%;
+    border-radius: 15px;
+}
+.about{
+    text-align: center;
+    padding: 25px 30px;
+    border-radius: 10px;
+    background-color: #cbcaf5;
+    
+}
+.about-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.title{
+    font-size: xx-large;
+    font-weight: bolder;
+    color:#4E47FF;
+    
+}
+.item{
+    font-size: small;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+}
+.effort2{ list-style: none;
+    display: flex;
+
+}
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+
+}
+.skills-container{
+    display: flex;
+    gap: 30px;
+}
+.skill{
+    padding: 30px;
+    margin-top: 200px;
 }
